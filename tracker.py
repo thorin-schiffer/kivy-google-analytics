@@ -1,7 +1,6 @@
 from jnius import autoclass
 from kivy.utils import platform
 from kivy.logger import Logger
-from raven import Client
 
 
 class AbstractTracker(object):
